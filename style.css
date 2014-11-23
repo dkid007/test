@@ -1,0 +1,71 @@
+body
+	{width: 980px;
+	margin-left: auto;
+  	margin-right: auto;}
+
+
+#wrapper 
+	{background-color: green;
+	height: 200px;
+	width: 100%;
+	z-index: 2;
+	margin-left: auto;
+  	margin-right: auto;}
+
+.container 
+	{background-color: red;
+	z-index: 1;
+	height: 100px;
+	width: 100px;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding: 20px;}
+
+.aboutmecontainer,
+.workcontainer,
+.educationcontainer,
+.interestcontainer,
+.contactcontainer
+	{margin: 5px;
+		height: 400px;}
+
+
+
+.aboutmelogo,
+.worklogo,
+.educationlogo,
+.interestlogo,
+.contactlogo
+	{width: 30%;
+	float: left;
+	margin-bottom: 10px;}
+
+.aboutmesection,
+.worksection,
+.educationsection,
+.interestsection,
+.contactsection
+	{float: right;
+	background-color: purple;
+	float: right;
+	width: 70%;
+	margin-bottom: 10px}
+
+
+footer 
+	{width: 100%;
+	float: right;
+	margin-top: 20px;
+	height: 50px;
+	position: relative;
+	background-color: blue; }
+
+
+	/*    Clearfix   */
+
+	.clearfix:after 
+	{content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;}
